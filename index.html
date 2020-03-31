@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Web Site Templete</title>
+	<link rel="icon" type="image/icon" href="images/Google.png" />
+	<link href="https://fonts.googleapis.com/css?family=Amaranth|Noto+Sans+KR|Philosopher|Poor+Story|Ubuntu:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="amarCSS/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({
+				effect:'random',
+				slices:10,
+				animSpeed:500,
+				pauseTime:2200,
+				startSlide:0, //Set starting Slide (0 index)
+				directionNav:false,
+				directionNavHide:false, //Only show on hover
+				controlNav:false, //1,2,3...
+				controlNavThumbs:false, //Use thumbnails for Control Nav
+				pauseOnHover:true, //Stop animation while hovering
+				manualAdvance:false, //Force manual transitions
+				captionOpacity:0.8, //Universal caption opacity
+				beforeChange: function(){},
+				afterChange: function(){},
+				slideshowEnd: function(){} //Triggers after all slides have been shown
+			});
+		});
+	</script>
+</head>
+<body>
+
+<section class="templete clear">
+	<!-- Header Goes Here -->
+	<div class="headerSection clear">
+		<div class="logoDiv clear">
+			<a href="index.html"><img src="images/skrill.png" alt="Logo images" /></a>
+		</div>
+		<div class="socialDiv clear">
+			<a href="http://facebook.com"> <i class="fa fa-facebook"></i> </a>
+			<a href="http://google.com"> <i class="fa fa-google-plus"></i> </a>
+			<a href="http://youtube.com"> <i class="fa fa-youtube"></i> </a>
+			<a href="http://twitter.com"> <i class="fa fa-twitter"></i> </a>
+			<a href="http://linkedin.com"> <i class="fa fa-linkedin"></i> </a>
+		</div>
+	</div>
+	<!-- Navigation Bar Goes Here -->
+	<div class="main_menu">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i></a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="">Video gallery</a>
+				<ul>
+					<li><a href="">Dropdown Item</a></li>
+					<li><a href="">Dropdown Item</a></li>
+					<li><a href="">Dropdown Item</a></li>
+					<li><a href="">Dropdown Item</a></li>
+					<li><a href="">Dropdown Item</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="post.html">Post</a></li>
+		</ul>
+	</div>
+	<!-- slider goes here -->
+	<div id="sliderSection clear">
+        
+        <div id="slider">
+            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" title="Suspendisse quis velit ac nisl ultrices tristique a eu velit." /></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="Fusce eget tellus eget felis ultrices volutpat et vitae mauris." /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="Duis non est nec dui tincidunt pulvinar lacinia vel quam." /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="Phasellus in orci eget neque tristique semper ut ac lacus." /></a>
+        </div>
+    </div>
+	
+	
+	<!-- Content Goes Here -->
+	<div class="contentSection clear">
+		<div class="mainContent clear">
+			<div class="samePost clear">
+				<h2>Our Post Title Here</h2>
+				<img src="images/post.png" alt="post images" />
+				<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+				<div class="readMore clear">
+					<a href="post.html">Read More</a>
+				</div>
+			</div>
+			<div class="samePost clear">
+				<h2>Our Post Title Here</h2>
+				<img src="images/post2.png" alt="post images" />
+				<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+				<div class="readMore clear">
+					<a href="post.html">Read More</a>
+				</div>
+			</div>
+			<div class="samePost clear">
+				<h2>Our Post Title Here</h2>
+				<img src="images/post.png" alt="post images" />
+				<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+				<div class="readMore clear">
+					<a href="post.html">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar clear">
+			<div class="sameSidebar clear">
+				<h2>Latest Articles</h2>
+				<ul>
+					<li><a href="#">1. post title on will be go here</a></li>
+					<li><a href="#">2. post title on will be go here</a></li>
+					<li><a href="#">3. post title on will be go here</a></li>
+					<li><a href="#">4. post title on will be go here</a></li>
+					<li><a href="#">5. post title on will be go here</a></li>
+				</ul>
+			</div>
+			
+			<div class="sameSidebar clear">
+			<h2>SideBar One Header</h2>
+			<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+			<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+			</div>
+			
+			<div class="sameSidebar clear">
+			<h2>SideBar One Header</h2>
+			<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+			<p>Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.Some Text Go Here.</p>
+			</div>
+			
+			<div class="googlemap">
+				<div id="map">
+					 <span class="counter">1,234,567</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footerSection clear">
+		<div class="footerMenu">
+			<ul>
+			<li>
+				<a href="">Home</a>
+				<a href="">About</a>
+				<a href="">Services</a>
+				<a href="">Privacy</a>
+				<a href="">Contact</a>
+			</li>
+		</ul>
+		</div>
+		<p>&copy; www.bidyut.com</p>
+	</div>
+</section>
+	
+	<div class="fixedIcon clear">
+		<img src="icon/facebook.png" alt="facebook" />
+		<img src="icon/google.png" alt="google" />
+		<img src="icon/twitter.png" alt="twitter" />
+		<img src="icon/linkedin.png" alt="linkedin" />
+		<img src="icon/youtube.png" alt="youtube" />
+	</div>
+	
+<script type="text/javascript" src="js/scrooltotop.js"></script>
+
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+</script>
+</body>
+</html>

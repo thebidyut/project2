@@ -1,0 +1,197 @@
+
+* {
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+body {
+    color: #000;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+}
+.clear {
+    overflow: hidden;
+}
+.templete {
+    margin: 0 auto;
+    width: 960px;
+}
+.headerSection {
+    background: #b78016 none repeat scroll 0 0;
+    color: #fff;
+}
+.headerSection h2 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.logoDiv {
+    display: block;
+    float: left;
+    width: 500px;
+}
+.logoDiv img {
+    width: 200px;
+}
+.socialDiv {
+    display: block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 212px;
+}
+.socialDiv img {
+    height: 30px;
+    margin-right: 20px;
+    padding-top: 5px;
+    width: 30px;
+}
+.socialDiv a {
+    text-decoration: none;
+}
+.navSection {
+    background: #e6af4b none repeat scroll 0 0;
+    display: block;
+    overflow: hidden;
+}
+.navSection ul {
+    line-height: 40px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+.navSection ul li {
+    display: block;
+    float: left;
+    padding-top: 3px;
+}
+.navSection ul li a {
+    border: 1px solid #c48d29;
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+.navSection ul li a:hover {
+    background: #c48d29 none repeat scroll 0 0;
+    color: #fff;
+}
+sliderSection{}
+.contentSection {
+    margin-top:  5px;
+}
+.mainContent {
+    background: #fef4e5 none repeat scroll 0 0;
+    border: 1px solid #b78016;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding: 8px 20px;
+    width: 588px;
+}
+.samePost {
+}
+.samePost h2 {
+    color: #b78016;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.samePost img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #9b999a;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+}
+.samePost p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+.readMore {
+    border: 1px solid #b78016;
+    border-radius: 3px;
+    float: right;
+}
+.readMore a {
+    color: #b78016;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+.readMore a:hover {
+    background: #b78016 none repeat scroll 0 0;
+    color: #fff;
+}
+.sidebar {
+    background: #fef4e5 none repeat scroll 0 0;
+    border: 1px solid #b78016;
+    float: right;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    width: 278px;
+}
+.sameSidebar {
+}
+.sameSidebar.clear h2 {
+    background: #e6af4b none repeat scroll 0 0;
+    border-bottom: 2px solid #b78016;
+    border-radius: 4px;
+    border-right: 2px solid #b78016;
+    color: #333;
+    margin-bottom: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.sameSidebar ul{margin:0;padding:0;list-style:none;}
+.sameSidebar ul li{
+    padding: 5px  2px;
+    border-bottom: 1px dashed #E6AF4B;
+    margin-bottom:  5px;
+}
+.sameSidebar ul li a{text-decoration:none;color: #804f18;font-size:  18px;cursor:  pointer;}
+.sameSidebar ul li a:hover{}
+.footerSection {
+    background: #b78016 none repeat scroll 0 0;
+    color: #fff;
+}
+.footerMenu {
+}
+.footerMenu ul {
+    list-style: outside none none;
+    margin: 15px 0 0;
+    padding: 0;
+    text-align: center;
+}
+.footerMenu ul li {
+    display: inline-block;
+}
+.footerMenu ul li a {
+	border: 1px solid #e6af4b;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.footerMenu ul li a:hover {
+    background: #E6AF4B;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.footerSection p {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
